@@ -126,7 +126,7 @@ def main():
 
     # 开始推送
     if pushplus_token:
-        start_title = "🚀 QQ音乐 脚本已启动"
+        start_title = "🚀 ✅QQ音乐✅脚本已启动"
         start_content = f"<p>📅 启动时间: {start_time}</p><p>✅ QQ音乐任务启动 | QQ: {qq} | 总请求数: {max_requests}</p>"
         send_pushplus_notification(pushplus_token, start_title, start_content)
 
@@ -164,7 +164,7 @@ def main():
 
     # 结束推送
     if pushplus_token:
-        end_title = "🏁 脚本已结束"
+        end_title = "🏁 ✅QQ音乐✅脚本已结束"
         end_content = summary
         send_pushplus_notification(pushplus_token, end_title, end_content)
 
